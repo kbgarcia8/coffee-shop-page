@@ -1,4 +1,6 @@
 import Navigation from "./navigation";
+import './style.css';
+
 const navButtons = document.querySelectorAll(".navigation-button");
 const myNavigation = new Navigation();
 
