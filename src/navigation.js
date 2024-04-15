@@ -31,7 +31,7 @@ class Navigation {
 
       var node_7 = document.createElement('IMG');
       node_7.setAttribute('id', 'coffeeCup2');
-      node_7.setAttribute('src', '../src/images/coffeeCup2.jpg');
+      node_7.setAttribute('src', './src/images/coffeeCup2.jpg');
       node_7.setAttribute('alt', 'Coffee-cup2');
       node_2.appendChild(node_7);
 
@@ -41,7 +41,7 @@ class Navigation {
 
       var node_9 = document.createElement('IMG');
       node_9.setAttribute('id', 'coffeeTime');
-      node_9.setAttribute('src', '../src/images/coffeeTime.jpg');
+      node_9.setAttribute('src', './src/images/coffeeTime.jpg');
       node_9.setAttribute('alt', 'Coffee-time');
       node_8.appendChild(node_9);
 
@@ -192,7 +192,7 @@ class Navigation {
       var node_56 = document.createElement('IMG');
       node_56.setAttribute('class', 'contact-icon');
       node_56.setAttribute('id', 'location');
-      node_56.setAttribute('src', '../src/images/location.svg');
+      node_56.setAttribute('src', './src/images/location.svg');
       node_56.setAttribute('alt', 'location-icon');
       node_55.appendChild(node_56);
 
@@ -211,7 +211,7 @@ class Navigation {
       var node_61 = document.createElement('IMG');
       node_61.setAttribute('class', 'contact-icon');
       node_61.setAttribute('id', 'call');
-      node_61.setAttribute('src', '../src/images/call.svg');
+      node_61.setAttribute('src', './src/images/call.svg');
       node_61.setAttribute('alt', 'call-icon');
       node_60.appendChild(node_61);
 
@@ -230,7 +230,7 @@ class Navigation {
       var node_66 = document.createElement('IMG');
       node_66.setAttribute('class', 'contact-icon');
       node_66.setAttribute('id', 'facebook');
-      node_66.setAttribute('src', '../src/images/facebook.svg');
+      node_66.setAttribute('src', './src/images/facebook.svg');
       node_66.setAttribute('alt', 'facebook-icon');
       node_65.appendChild(node_66);
 
@@ -249,7 +249,7 @@ class Navigation {
       var node_71 = document.createElement('IMG');
       node_71.setAttribute('class', 'contact-icon');
       node_71.setAttribute('id', 'instagram');
-      node_71.setAttribute('src', '../src/images/instagram.svg');
+      node_71.setAttribute('src', './src/images/instagram.svg');
       node_71.setAttribute('alt', 'instagram-icon');
       node_70.appendChild(node_71);
 
@@ -268,7 +268,7 @@ class Navigation {
       var node_76 = document.createElement('IMG');
       node_76.setAttribute('class', 'contact-icon');
       node_76.setAttribute('id', 'grab');
-      node_76.setAttribute('src', '../src/images/grab.svg');
+      node_76.setAttribute('src', './src/images/grab.svg');
       node_76.setAttribute('alt', 'grab-icon');
       node_75.appendChild(node_76);
 
@@ -287,7 +287,7 @@ class Navigation {
       var node_81 = document.createElement('IMG');
       node_81.setAttribute('class', 'contact-icon');
       node_81.setAttribute('id', 'foodpanda');
-      node_81.setAttribute('src', '../src/images/foodpanda-logo.svg');
+      node_81.setAttribute('src', './src/images/foodpanda-logo.svg');
       node_81.setAttribute('alt', 'foodpanda-icon');
       node_80.appendChild(node_81);
 
@@ -329,7 +329,7 @@ class Navigation {
       node_4.appendChild(node_5);
 
       var node_6 = document.createElement('IMG');
-      node_6.setAttribute('src', '../src/images/americano.png');
+      node_6.setAttribute('src', './src/images/americano.png');
       node_6.setAttribute('alt', 'Americano');
       node_6.setAttribute('class', 'drink-item');
       node_5.appendChild(node_6);
@@ -346,7 +346,7 @@ class Navigation {
       node_4.appendChild(node_9);
 
       var node_10 = document.createElement('IMG');
-      node_10.setAttribute('src', '../src/images/mocha.png');
+      node_10.setAttribute('src', './src/images/mocha.png');
       node_10.setAttribute('alt', 'Mocha');
       node_10.setAttribute('class', 'drink-item');
       node_9.appendChild(node_10);
@@ -363,7 +363,7 @@ class Navigation {
       node_4.appendChild(node_13);
 
       var node_14 = document.createElement('IMG');
-      node_14.setAttribute('src', '../src/images/latte.png');
+      node_14.setAttribute('src', './src/images/latte.png');
       node_14.setAttribute('alt', 'Latte');
       node_14.setAttribute('class', 'drink-item');
       node_13.appendChild(node_14);
@@ -380,7 +380,7 @@ class Navigation {
       node_4.appendChild(node_17);
 
       var node_18 = document.createElement('IMG');
-      node_18.setAttribute('src', '../src/images/machiatto.png');
+      node_18.setAttribute('src', './src/images/machiatto.png');
       node_18.setAttribute('alt', 'Machiatto');
       node_18.setAttribute('class', 'drink-item');
       node_17.appendChild(node_18);
@@ -397,7 +397,7 @@ class Navigation {
       node_4.appendChild(node_21);
 
       var node_22 = document.createElement('IMG');
-      node_22.setAttribute('src', '../src/images/frappe.png');
+      node_22.setAttribute('src', './src/images/frappe.png');
       node_22.setAttribute('alt', 'Frappe');
       node_22.setAttribute('class', 'drink-item');
       node_21.appendChild(node_22);
@@ -427,7 +427,7 @@ class Navigation {
       node_27.appendChild(node_28);
 
       var node_29 = document.createElement('IMG');
-      node_29.setAttribute('src', '../src/images/aglio olio.png');
+      node_29.setAttribute('src', './src/images/aglio olio.png');
       node_29.setAttribute('alt', 'Aglio Olio');
       node_29.setAttribute('class', 'food-item');
       node_28.appendChild(node_29);
@@ -444,7 +444,7 @@ class Navigation {
       node_27.appendChild(node_32);
 
       var node_33 = document.createElement('IMG');
-      node_33.setAttribute('src', '../src/images/bolognese.png');
+      node_33.setAttribute('src', './src/images/bolognese.png');
       node_33.setAttribute('alt', 'Bolognese');
       node_33.setAttribute('class', 'food-item');
       node_32.appendChild(node_33);
@@ -461,7 +461,7 @@ class Navigation {
       node_27.appendChild(node_36);
 
       var node_37 = document.createElement('IMG');
-      node_37.setAttribute('src', '../src/images/carbonara.png');
+      node_37.setAttribute('src', './src/images/carbonara.png');
       node_37.setAttribute('alt', 'Carbonara');
       node_37.setAttribute('class', 'food-item');
       node_36.appendChild(node_37);
@@ -478,7 +478,7 @@ class Navigation {
       node_27.appendChild(node_40);
 
       var node_41 = document.createElement('IMG');
-      node_41.setAttribute('src', '../src/images/seafood.png');
+      node_41.setAttribute('src', './src/images/seafood.png');
       node_41.setAttribute('alt', 'Seafood');
       node_41.setAttribute('class', 'food-item');
       node_40.appendChild(node_41);
@@ -495,7 +495,7 @@ class Navigation {
       node_27.appendChild(node_44);
 
       var node_45 = document.createElement('IMG');
-      node_45.setAttribute('src', '../src/images/tomato.png');
+      node_45.setAttribute('src', './src/images/tomato.png');
       node_45.setAttribute('alt', 'Tomato');
       node_45.setAttribute('class', 'food-item');
       node_44.appendChild(node_45);
@@ -525,7 +525,7 @@ class Navigation {
       node_50.appendChild(node_51);
 
       var node_52 = document.createElement('IMG');
-      node_52.setAttribute('src', '../src/images/dount.png');
+      node_52.setAttribute('src', './src/images/dount.png');
       node_52.setAttribute('alt', 'Donut');
       node_52.setAttribute('class', 'dessert-item');
       node_51.appendChild(node_52);
@@ -542,7 +542,7 @@ class Navigation {
       node_50.appendChild(node_55);
 
       var node_56 = document.createElement('IMG');
-      node_56.setAttribute('src', '../src/images/gelatin.png');
+      node_56.setAttribute('src', './src/images/gelatin.png');
       node_56.setAttribute('alt', 'Gelatin');
       node_56.setAttribute('class', 'dessert-item');
       node_55.appendChild(node_56);
@@ -559,7 +559,7 @@ class Navigation {
       node_50.appendChild(node_59);
 
       var node_60 = document.createElement('IMG');
-      node_60.setAttribute('src', '../src/images/icecream.png');
+      node_60.setAttribute('src', './src/images/icecream.png');
       node_60.setAttribute('alt', 'Ice Cream');
       node_60.setAttribute('class', 'dessert-item');
       node_59.appendChild(node_60);
@@ -576,7 +576,7 @@ class Navigation {
       node_50.appendChild(node_63);
 
       var node_64 = document.createElement('IMG');
-      node_64.setAttribute('src', '../src/images/shortcake.png');
+      node_64.setAttribute('src', './src/images/shortcake.png');
       node_64.setAttribute('alt', 'Shortcake');
       node_64.setAttribute('class', 'dessert-item');
       node_63.appendChild(node_64);
@@ -593,7 +593,7 @@ class Navigation {
       node_50.appendChild(node_67);
 
       var node_68 = document.createElement('IMG');
-      node_68.setAttribute('src', '../src/images/waffles.png');
+      node_68.setAttribute('src', './src/images/waffles.png');
       node_68.setAttribute('alt', 'Waffles');
       node_68.setAttribute('class', 'dessert-item');
       node_67.appendChild(node_68);
@@ -634,7 +634,7 @@ class Navigation {
       node_2.appendChild(node_5);
       
       var node_6 = document.createElement('IMG');
-      node_6.setAttribute('src', '../src/images/coffee-stand.png');
+      node_6.setAttribute('src', './src/images/coffee-stand.png');
       node_6.setAttribute('alt', 'Coffee Stand Icon');
       node_6.setAttribute('id', 'coffee-stall');
       node_2.appendChild(node_6);
@@ -657,7 +657,7 @@ class Navigation {
       node_7.appendChild(node_10);
       
       var node_12 = document.createElement('IMG');
-      node_12.setAttribute('src', '../src/images/order.png');
+      node_12.setAttribute('src', './src/images/order.png');
       node_12.setAttribute('alt', 'Order List Icon');
       node_12.setAttribute('id', 'batch-order');
       node_7.appendChild(node_12);
@@ -680,7 +680,7 @@ class Navigation {
       node_13.appendChild(node_16);
       
       var node_18 = document.createElement('IMG');
-      node_18.setAttribute('src', '../src/images/barista.png');
+      node_18.setAttribute('src', './src/images/barista.png');
       node_18.setAttribute('alt', 'Barista Icon');
       node_18.setAttribute('id', 'barista');
       node_16.appendChild(node_18);
