@@ -1,0 +1,26 @@
+{
+  "name": "coffee_shop",
+  "version": "1.0.0",
+  "description": "coffee shop page with use of webpack, npm and modules",
+  "private": true,
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbgarcia8/coffee_shop.git"
+  },
+  "keywords": [
+    "import"
+  ],
+  "author": "Karl Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbgarcia8/coffee_shop/issues"
+  },
+  "homepage": "https://github.com/kbgarcia8/coffee_shop#readme",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
