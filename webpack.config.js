@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: './src/index.js',
@@ -8,11 +9,19 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
+    new CopyPlugin({
+      patterns: [
+        { from: "src/images", to: "images" }
+      ],
+      options: {
+        concurrency: 100,
+      },
+    }),
   ],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: 'images/[hash][ext][query]',
+    assetModuleFilename: 'general_assets/[hash][ext][query]',
   },
   module: {
     rules: [
