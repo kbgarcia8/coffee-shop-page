@@ -21,7 +21,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: 'general_assets/[hash][ext][query]',
+    assetModuleFilename: 'general_assets/[hash][ext]',
   },
   module: {
     rules: [
